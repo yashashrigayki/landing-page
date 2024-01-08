@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Your Page Title</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Include any additional meta tags, styles, or links here -->
+
+    <!-- Link to external JavaScript file (usually placed at the end of the body) -->
+    <!-- If your script relies on DOM elements, it's generally a good idea to place it at the end of the body to ensure that the DOM has loaded -->
+    <!-- <script type="javascript" src="read.js"></script> -->
+</head>
+<body>
+<h2></h2>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Create Account</h1>
+			<div class="social-container">
+				<a href="https://google.com" class="social"><i class='bx bxl-google' ></i></a>
+				<!-- <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a> -->
+			</div>
+			<span>or use your email for registration</span>
+			<input type="text" placeholder="Name" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<button>Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Login to Your Account</h1>
+			<div class="social-container">
+				<a href="https://facebook.com" class="social"><i class='bx bxl-facebook'></i></a>
+				<a href="https://google.com" class="social"><i class='bx bxl-google' ></i></a>
+				<a href="https://linkedin.com" class="social"><i class='bx bxl-linkedin' ></i></a>
+			</div>
+			<span>Login using social networks</span>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<a href="#">Forgot your password?</a>
+			<button>Sign In</button>
+		</form>
+	</div>
+    
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1>
+				<p>To keep connected with us please login with your personal info</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>New Here ?</h1>
+				<p>Sign up and discover a great amount of new opportunities</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- <footer>
+	<p>
+		Created with <i class="fa fa-heart"></i> by
+		<a target="_blank" href="https://florin-pop.com">Florin Pop</a>
+		- Read how I created this and how you can join the challenge
+		<a target="_blank" href="https://www.florin-pop.com/blog/2019/03/double-slider-sign-in-up-form/">here</a>.
+	</p>
+</footer> -->
+
+<script src="read.js"></script>
+
+</body>
+</html>
